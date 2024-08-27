@@ -16,13 +16,13 @@
 }
 
 .clima-input {
-    width: calc(100% - 22px); /* Adjust width considering padding */
+    width: calc(100% - 22px); 
     padding: 10px;
     font-size: 16px;
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    box-sizing: border-box; 
 }
 
 .clima-button {
@@ -61,5 +61,5 @@
 
 .clima-result img {
     margin-top: 10px;
-    max-width: 100%; /* Ensure images fit within the container */
+    max-width: 100%;
 }
