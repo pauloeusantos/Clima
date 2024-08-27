@@ -1,0 +1,65 @@
+.clima-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.clima-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.clima-input {
+    width: calc(100% - 22px); /* Adjust width considering padding */
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.clima-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.clima-button:hover {
+    background-color: #0056b3;
+}
+
+.clima-erro {
+    color: red;
+    margin-top: 20px;
+}
+
+.clima-result {
+    margin-top: 20px;
+}
+
+.clima-result h2 {
+    font-size: 1.5em;
+    color: #007BFF;
+}
+
+.clima-result p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.clima-result img {
+    margin-top: 10px;
+    max-width: 100%; /* Ensure images fit within the container */
+}
